@@ -1,0 +1,570 @@
+@import url("https://fonts.cdnfonts.com/css/uncut-sans-2");@import url("https://fonts.cdnfonts.com/css/jetbrains-mono");
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Uncut Sans,Uncut Sans VF,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji ;  
+    text-decoration:  none;
+    overflow-x: hidden;
+}
+.logo{
+    margin-left: 20px;
+}
+.header{
+    background-color: #f8fafc;
+    position: fixed;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: #fff;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+.nav{
+    /* position: fixed; */
+    /* width: 100%; */
+    /* display: inline-flex; */
+    flex-wrap: wrap;   
+    text-transform: capitalize;
+     padding-top: 90px; 
+    padding-top: 50px;
+    background-color: #f8fafc;
+     color: #064e3b;
+    padding: 0;
+    overflow: hidden;
+}
+
+a{
+    margin-inline: 20px;
+    color: rgb(15 23 42);
+   padding-top: 10px;
+    font-weight: 500; 
+}
+a:hover{
+    text-decoration: underline;
+}
+.text-blk{
+    margin-left: 9cm;
+}
+.text{
+    margin-left: 8cm;
+}
+.the{
+    text-align: center;
+    background-color: #d1fae5;
+    color: rgb(15 23 42);
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 14cm;
+    
+}.book{
+    background-color: #f8fafc;
+}
+.bottle{
+    
+    background-color: #f8fafc;
+    text-align: center;
+    /* overflow: hidden; */
+    
+}
+.bottle h1{
+    /* margin-top: 5cm; */
+    padding-top: 5cm;
+    font-size: 1.8cm;
+    color: rgb(15 23 42);
+    line-height: 70px;
+    overflow: hidden;
+}
+.bottle p{
+    font-size: 0.5cm;
+    color: rgb(15 23 42);
+    line-height: 25px;
+   
+}
+.input_one{
+    padding: 12px;
+    background-color: #ffffff;
+    border: 2px solid gainsboro;
+    margin-left: -1cm;
+    width: 8cm;
+    border-radius: 5px;
+    margin-top: 1cm;
+}
+.input_one:hover{
+    border: 2px solid #059669;
+}
+.button{
+    background-color: #059669;
+    color: #fff;
+    padding: 14px;
+    border-radius: 5px;
+    width: 3cm;
+    border: none;
+    cursor: pointer;
+    margin-left: -7px;
+    overflow: hidden;
+    transition: transform .4s;
+}
+.button:hover{
+    transform: scale(1.2);
+    background-color: #059669;
+}
+.join{
+    font-size: 14px;
+    color: #64748b;
+    margin-top: 10px;
+    font-weight: lighter;
+    margin-left: -1cm;
+    padding-bottom: 2cm;
+}
+.tecno{
+    padding-bottom: 7px;
+    padding-right: 16px;
+    display: inline-flex;
+    background-color: #f8fafc;
+}
+.charger img{
+    width: 270px;
+    margin-left: 30px;
+}
+.third-section{
+    background-color: rgb(236 253 245);
+    color: #064e3b;
+    padding-top: 50px;
+}
+.third-section h1{
+    margin-left: 40px;
+    margin-top: 2cm;
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+.third-section h3{
+    margin-left: 40px;
+    font-size: 3rem;
+    line-height: 20px;
+}
+.third-section p{
+    margin-left: 40px;
+    margin-bottom: 100px;
+    font-size: 1.2rem;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.flex-1{
+    background-color: #064e3b;
+    color: #ecfdf5;
+    margin-left: 30px;
+    width: 17cm;
+    padding-right: 100px;
+    border-radius: 10px;
+    margin-right: 40px;
+    
+}
+.flex-1 img{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.flex-1 h3{
+     margin-left: 40px;
+     margin-top: 30px;
+     font-size: 1.5rem;
+}
+.flex-1 p{
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    line-height: 20px;
+    font-size: 1rem;
+}
+.our{
+    display: flex;
+    margin-top: 4cm;
+    margin-left: 40px;
+    justify-content: space-between;
+    margin-right: 100px;
+    
+}
+.bag h2{
+    font-size: 2.5rem;
+}
+.bag p{
+    margin-left: -40px;
+   
+}
+.fourthsection{
+    background-color: #111827;
+    margin-top: 2;
+    padding-top: 20px;
+    color: white;
+}
+.head{
+   text-align: center;
+   color: white;
+}
+.head h2{
+    font-size: 4rem;
+    margin-top: 2.5cm;
+}
+.head p{
+    margin-top: 20px;
+}
+.figma{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-top: 3cm;
+
+}
+.first{
+    /* margin-top: 30px; */
+    margin-bottom: 20px;
+}
+.first h2{
+    margin-bottom: 20px;
+}
+.apps img{
+    margin-right: 80px;
+    width: 600px;
+    vertical-align: middle;
+}
+.fifth{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ecfdf5;
+    color: #064e3b;
+}
+.section{
+    margin-top: 2cm;
+    margin-left: 50px;
+}
+.section p{
+    margin-top: 10px;
+    line-height: 20px;
+    font-size: 1.1rem;
+}
+.section-2 {
+    margin-top: 2cm;
+    margin-right: 4cm;
+    margin-bottom: 50px;
+}
+.section-3{
+    display: flex;
+    /* flex-direction: column; */
+}
+.iphone{
+    margin-right: 20px;
+}
+.call h2{
+    margin-bottom: 10px;
+}
+.call p{
+    margin-bottom: 40px;
+    line-height: 25px;
+}
+.sixth-2{
+    background-color: #f8fafc;
+    text-align: center;
+    color: #0f172a;
+    padding-top: 70px;
+}
+.sixth-2 h2{
+    font-size: 5rem;
+    margin-top: 70px;
+}
+.sixth-2 p{
+    margin-top: 10px;
+    font-size: 1.3rem;
+}
+.top{
+    display: inline-flex;
+    justify-content: space-between;
+    background-color: #f8fafc;
+    padding-right: 50px;
+    padding-bottom: 100px;
+}
+.nut{
+    background-color: #ecfdf5;
+    margin-top: 100px;
+    margin-left: 30px;
+    /* width: 330px; */
+    color: #064e3b;
+    padding-right: 50px;
+    border: 3px  solid #4ed4b1;
+    border-radius: 8px;
+
+}
+.nut h2{
+    margin-left: 35px;
+    margin-top: 10px;
+}
+.nut p{
+    margin-top: 10px;
+    margin-left: 35px;
+}
+.nut h1{
+    font-size: 3.5rem;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.hour{
+    margin-left: 50px;
+    border: 1px solid #4ed4b1;
+    margin-top: 10px; 
+}
+.nut h3{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 2rem;
+}
+
+.turn{
+    background-color: #064e3b;
+    margin-top: 100px;
+    margin-left: 20px;
+    width: 350px;
+    height: 600px;
+    color: white;
+    padding-right: 50px;
+    border: 3px  solid #4ed4b1;
+    border-radius: 8px;
+    padding-bottom: 0.7cm;
+}
+.turn h2{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.hard{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.hard p{
+    margin-left: 20px ;
+}
+.turn p{
+    margin-top: 10px;
+    margin-left: 40px;
+    
+}
+.turn h1{
+    font-size: 3.5rem;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.turn h3{
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 2rem;
+}
+.gala{
+    overflow: hidden;
+}
+.gala button{
+    background-color: #2ea786;
+    margin-top: 4.8cm;
+    margin-left: 40px;
+    width: 8cm;
+    /* margin-bottom: -500cm; */
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    /* padding-top:1cm ; */
+    /* overflow: hidden; */
+}
+.gala button a{
+    color: white;
+    /* margin-top: 10px;/ */
+}
+.gala button:hover{
+    background-color: #059669;
+
+}
+.gala button a:hover{
+    text-decoration: none;
+}
+.gal button{
+    background-color: #2ea786;;
+    margin-top: 70px;
+    margin-left: 40px;
+    width: 8cm;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    
+}
+.gal button a{
+    color: white;
+}
+.gal button:hover{
+    background-color: #059669;
+
+
+}
+.gal button a:hover{
+    text-decoration: none;
+}
+.ga button{
+    background-color: #2ea786;
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    width: 8cm;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    /* margin-bottom: 1cm */
+}
+.ga button a{
+    color: white;
+}
+.ga button:hover{
+    background-color: #059669;
+
+}
+.ga button a:hover{
+    text-decoration: none;
+}
+.footer {
+    display: inline-flex;
+    text-align: center;
+    /* margin-top: 40px; */
+    margin-left: 10cm;
+}
+.footer a{
+    margin-top: 2cm;
+    margin-bottom: 40px;
+    color: rgb(134, 129, 129);
+}
+.footer a:hover{
+    color: rgb(12, 0, 0);
+    text-decoration: none;
+}
+.drink{
+    text-align: center;
+    margin-bottom: 50px;
+  
+}
+.bxl-youtube{
+    color: rgb(134, 129, 129);
+}
+.bxl-youtube:hover{
+    color: black;
+}
+.bxl-twitter{
+    color: rgb(134, 129, 129);
+}
+.bxl-twitter:hover{
+    color: black;
+}
+.cover{
+    margin-left: 14cm;
+    color: rgb(134, 129, 129);
+    display: inline-flex;
+    margin-bottom: 80px;
+}
+.cover img{
+    width: 20px;
+}
+.container{
+    margin-top: 2cm;
+    margin-left: 50px;
+    
+}
+.login{
+    font-size: 0.8cm;
+    text-align: center;
+    margin-left:-3cm ;
+    
+}
+.yoyo{
+    background-color: white;
+    width: fit-content;
+    padding: 15px;
+    color: #64748b;
+    font-weight: lighter;
+    margin-left: 10cm;
+    border-radius: 10px;
+}
+.inputed{
+    width: 10cm;
+    height: 1cm;
+    margin-top: -0.5cm;
+    border-radius: 5px;
+    color: #64748b;
+    font-weight: bolder;
+    border: 1px solid gainsboro;
+}
+.inputed:hover{
+    border: 1px solid#059669;
+}
+.oil{
+    margin-top: 0.5cm;
+    width:10.3cm ;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #059669;
+    color: white;
+    font-weight: bold;
+    
+}
+.oil:hover{
+    background-color: #2edba7;;
+}
+.hr1{
+    width: 3cm;
+    margin-left: 1px;
+    border: 1px solid rgb(218, 214, 214);
+    margin-top: 1cm; 
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+h5{
+    margin-top:-0.8cm;
+    margin-left: 3.7cm;
+    color: #64748b;
+    font-weight: lighter;
+}
+.hr2{
+    width: 3cm;
+    margin-right: 1px;
+    margin-top: -1cm;
+    border: 1px solid rgb(218, 214, 214);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+button{
+    width: 10cm;
+    height: 1cm;
+    margin-right: -60px;
+    margin-top: 0.5cm;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: white;
+    font-weight: bolder;
+    border: 1px solid gainsboro;
+    cursor: pointer;
+    color: #64748b;
+    font-weight: bold;
+}
+button:hover{
+    background-color: #f8fafc;
+}
+/* button img{ */
+    /* width: 20px; */
+    /* margin-left: 50px; */
+/* } */
+.jjj{
+    width: 20px;
+    margin-top: 10px;
+}
+button a{
+    margin-left: -30px;
+    text-align: center;
+}
+button a:hover{
+    text-decoration: none;
+}
